@@ -1,0 +1,2 @@
+linters: with_defaults(assignment_linter = NULL, spaces_left_parentheses_linter = NULL, cyclocomp_linter = NULL)
+

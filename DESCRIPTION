@@ -1,0 +1,23 @@
+Package: autumn
+Version: 0.1
+Title: Fast, Modern, and Tidy-Friendly Iterative Raking
+Description: autumn performs iterative raking to calculate weights for survey 
+  data. It is a modern replacement for anesrake. Like anesrake, it implements 
+  the methods described in DeBell and Krosnick (2009). Unlike anesrake, it is 
+  ready for a tidy workflow. It also requires no external dependencies, runs
+  faster, works with a wider variety of input formats, and has better error 
+  handling and messaging.
+Authors@R: person("Aaron", "Rudkin", 
+                  email = "rudkin@ucla.edu", 
+                  role = c("aut", "cre"))
+License: MIT + file LICENSE
+URL: https://github.com/aaronrudkin/autumn/
+BugReports: https://github.com/aaronrudkin/autumn/issues
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+Depends: R (>= 2.10)
+Suggests: 
+  testthat,
+  anesrake
