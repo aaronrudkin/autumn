@@ -46,7 +46,7 @@ test_that("testing fast convergence, timeout, regular convergence", {
 
   expect_message(
     harvest(respondent_data, ns_target,
-            convergence = c(pct = 0.01, absolute = 1e-6, time = 2),
+            convergence = c(pct = 0.01, absolute = 1e-6, time = 0.01),
             verbose = 1),
     "time limit")
 })
