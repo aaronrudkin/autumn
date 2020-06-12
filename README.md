@@ -24,7 +24,7 @@ package built from the ground up to fix these problems.
 
 ## Installation
 
-**autumn** will be submitted to CRAN in January 2020. In the meantime,
+**autumn** will be submitted to CRAN in ~January 2020~ June 2020. In the meantime,
 you can install it using the following command:
 
 ``` r
