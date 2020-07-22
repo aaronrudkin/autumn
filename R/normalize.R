@@ -7,7 +7,7 @@
 
 normalize <- function(target) {
   if (is.data.frame(target)) {
-    target = autumn:::df_targets_to_list(target)
+    target = df_targets_to_list(target)
   }
 
   sums   = lapply(target, sum)
