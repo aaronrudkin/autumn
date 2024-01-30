@@ -86,7 +86,7 @@ check_any_data_issues = function(data, target, weights) {
   # Do any variables in the target weights not sum to 1?
   weight_sum_errors = lapply(names(target), function(variable) {
     sum_target = sum(target[[variable]])
-    if(sum_target == 1) {
+    if(all.equal(sum_target,1) ) {
       return(NULL)
     }
 
